@@ -1,0 +1,30 @@
+
+.backgroundimage {
+	background-image: url("./homeBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo { grid-area: photo; text-align: center;}
+.intro { grid-area: intro;text-align: center;}
+.main { grid-area: main;}
+
+.grid-cont1 {
+  display: grid;
+   
+   grid-template-areas:
+    'photo'
+    'intro'
+	'main';
+}
+
+.p1{
+	 font-family: verdana ;
+}
+
+.p2{
+	  font-family: courier;
+}
+
+

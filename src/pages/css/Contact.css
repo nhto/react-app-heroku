@@ -1,0 +1,14 @@
+.backgroundimage {
+	background-image: url("./homeBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.p1{
+	 font-family: verdana ;
+}
+
+.p2{
+	  font-family: courier;
+}

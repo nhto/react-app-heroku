@@ -1,25 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react';
+import {BrowserRouter, Route, Link } from 'react-router-dom';
+import Home from './pages/home';
+import Resume from './pages/Resume';
+import Project from './pages/Project';
+import Contact from './pages/Contact';
+import TopbarPhoto from './topbar_photo.jpg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends Component {
+  render() {
+    return (
+	<BrowserRouter>
+	<body>
+	
+                <div  style={{
+                background: `url(${TopbarPhoto})`,
+                 }}
+				>
+				
+				    <h3 style ={{color: "black"}}>Tommy To's personal website</h3>
+                    <ul>
+                        <p class = "p1"><Link to="/">Home</Link>&nbsp;
+                        <Link to="/resume">Resume</Link>&nbsp;
+						 <Link to="/project">Project</Link>&nbsp;
+						 <Link to="/contact">Contact</Link>
+						 </p>
+                    </ul>
+					
+					
+					<Route exact path="/" component={Home} />
+                    <Route path="/resume" component={Resume} />
+					<Route path="/project" component={Project} />
+					<Route path="/contact" component={Contact} />
+                </div>
+				</body>
+            </BrowserRouter>
+    );
+  }
+  
+
+
 }
 
 export default App;

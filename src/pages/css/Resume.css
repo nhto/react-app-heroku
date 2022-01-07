@@ -1,0 +1,44 @@
+.backgroundimage {
+	background-image: url("./homeBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item1 { grid-area: Title;}
+.item2 { grid-area: Education; }
+.item3 { grid-area: Education2; }
+.item4 { grid-area: Experience;}
+.item5 { grid-area: Experience2; }
+.item6 { grid-area: Skills; }
+.item7 { grid-area: ProgrammingLan; }
+.item8 { grid-area: Software; }
+.item9 { grid-area: Language; }
+.item10 { grid-area: Language2; }
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas:
+    'Title '
+    'Education'
+	'Education2 '
+	'Experience'
+	'Experience2'
+	'Skills'
+	'ProgrammingLan'
+	'Software'
+	'Language'
+	'Language2';
+}
+
+.p1{
+	 font-family: verdana ;
+}
+
+.p2{
+	  font-family: courier;
+}
+
+ul {
+  text-align: left;
+}
