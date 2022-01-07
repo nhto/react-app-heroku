@@ -17,11 +17,11 @@ class Project extends Component {
       />
 	  <p>Password: 654321 (if need)</p>
 	  <p class ="p2"><br/> Final Year Project - Optimal path-finding Puzzle-solving game (Github):
-	  <a href = "https://github.com/nhto/final-year-projectt" target = "_blank" rel="noreferrer" >Link</a>
+	  <a href = "https://github.com/nhto/Project-/tree/main/final%20year%20project" target = "_blank" rel="noreferrer" >Link</a>
 	  </p>
 	  
 	  <p class ="p2"><br/> Other side project(Github):
-	  <a href = "https://github.com/nhto" target = "_blank" rel="noreferrer" >Link</a>
+	  <a href = "https://github.com/nhto/Project-" target = "_blank" rel="noreferrer" >Link</a>
 	  </p>
 		
       </div>

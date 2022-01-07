@@ -48,7 +48,7 @@ class Resume extends Component {
 		<div class="item6"><h2 class="p2"> Skills </h2></div>
 		<div class="item7"><p  class="p1">
 		<small><i>Programming languages: C++, C#, C, Java, Python, Ruby, Golang</i></small>
-		<br/><small><i>Web development: HTML5, CSS, PHP, JavaScript, React js, Express js, Asp .net</i></small>
+		<br/><small><i>Web development: HTML, CSS, PHP, JavaScript, React js,  Asp .net</i></small>
 		<br/><small><i>Backend: MySQL, Oracle, DB2</i></small>
 		<br/><small><i>Software: ArcGIS, Office 365, Unity, RStudio, Git & Github, Adobe Premiere Pro</i></small>
 		</p></div>
