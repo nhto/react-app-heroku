@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PersonalPhoto from './photo/personal_photo.jpg';
+import PersonalPhoto from './photo/personal_photo.JPG';
 import Photo1 from './photo/photo1.jpg';
 import Photo2 from './photo/photo2.jpg';
 import Photo3 from './photo/photo3.JPG';
@@ -15,7 +15,7 @@ class Home extends Component {
 	<div className="Home" class="backgroundimage" style={{ height:'120%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
 	  
 	 <div class="grid-cont1" >
-	<div class="photo"><img src={PersonalPhoto} alt="" width="160px" height="220px"/></div>
+	<div class="photo"><img src={PersonalPhoto} alt="" width="240px" height="220px"/></div>
 	<div class="intro">
 	<h1 class="p2">Hi, I am Tommy, a system engineer from Hong Kong.</h1>
 	<p class="p1"><i>Fast learner and willing to take new challenge. Able to work under pressure and independently. A team player with good time management. Passionate in software development, game development and machine learning</i></p>
