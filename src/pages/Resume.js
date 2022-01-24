@@ -4,7 +4,7 @@ import './css/Resume.css'
 class Resume extends Component {
   render() {
     return (
-      <div className="Resume" class="backgroundimage" style={{ height:'140%', position: 'absolute', left: '0px', width: '120%', overflow: 'hidden'}}>
+      <div className="Resume" class="backgroundimage" style={{ height:'180%', position: 'absolute', left: '0px', width: '120%', overflow: 'hidden'}}>
         
 		<div class="grid-container2">
 		
