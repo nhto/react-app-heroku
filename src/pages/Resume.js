@@ -4,7 +4,7 @@ import './css/Resume.css'
 class Resume extends Component {
   render() {
     return (
-      <div className="Resume" class="backgroundimage" style={{ height:'120%', position: 'absolute', left: '0px', width: '120%', overflow: 'hidden'}}>
+      <div className="Resume" class="backgroundimage" style={{ height:'140%', position: 'absolute', left: '0px', width: '120%', overflow: 'hidden'}}>
         
 		<div class="grid-container2">
 		
@@ -57,7 +57,7 @@ class Resume extends Component {
 		<div class="item10"><p  class="p1"> 
 		<small><i>Native in Cantonese and Mandarin</i></small>
 		<br/><small><i>Full Profession Proficiency in English</i></small>
-		<br/><small><i>Working Proficiency in Japanese (N3)</i></small>
+		<br/><small><i>Working Proficiency in Japanese (N2)</i></small>
 		</p></div>
 		
 		

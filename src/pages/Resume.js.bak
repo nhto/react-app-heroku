@@ -4,7 +4,7 @@ import './css/Resume.css'
 class Resume extends Component {
   render() {
     return (
-      <div className="Resume" class="backgroundimage" style={{ height:'120%', position: 'absolute', left: '0px', width: '120%', overflow: 'hidden'}}>
+      <div className="Resume" class="backgroundimage" style={{ height:'140%', position: 'absolute', left: '0px', width: '120%', overflow: 'hidden'}}>
         
 		<div class="grid-container2">
 		
@@ -48,7 +48,7 @@ class Resume extends Component {
 		<div class="item6"><h2 class="p2"> Skills </h2></div>
 		<div class="item7"><p  class="p1">
 		<small><i>Programming languages: C++, C#, C, Java, Python, Ruby, Golang</i></small>
-		<br/><small><i>Web development: HTML, CSS, PHP, JavaScript, React js,  Asp .net</i></small>
+		<br/><small><i>Web development: HTML, CSS, PHP, JavaScript, React js, Express js  Asp .net</i></small>
 		<br/><small><i>Backend: MySQL, Oracle, DB2</i></small>
 		<br/><small><i>Software: ArcGIS, Office 365, Unity, RStudio, Git & Github, Adobe Premiere Pro</i></small>
 		</p></div>
@@ -57,7 +57,7 @@ class Resume extends Component {
 		<div class="item10"><p  class="p1"> 
 		<small><i>Native in Cantonese and Mandarin</i></small>
 		<br/><small><i>Full Profession Proficiency in English</i></small>
-		<br/><small><i>Working Proficiency in Japanese</i></small>
+		<br/><small><i>Working Proficiency in Japanese (N3)</i></small>
 		</p></div>
 		
 		
