@@ -12,7 +12,7 @@ import './css/home.css'
 class Home extends Component {
   render() {
     return (
-	<div className="Home" className="backgroundimage" style={{ height:'120%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
+	<div className="Home" className="backgroundimageHome" style={{ height:'120%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
 	  
 	 <div className="grid-cont1" >
 	<div className="photo"><img src={PersonalPhoto} alt="" width="240px" height="220px"/></div>

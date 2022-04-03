@@ -6,9 +6,9 @@ import ReactPlayer from "react-player"
 class Project extends Component {
   render() {
     return (
-      <div className="Project" class="backgroundimage" style={{ height:'100%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
-        <h1 class ="p2"><u>Project </u></h1>
-		<p class="p1">HKUST Computer Science - Final Year Project</p>
+      <div className="Project" className="backgroundimage" style={{ height:'100%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
+        <h1 className ="p2"><u>Project </u></h1>
+		<p className="p1">HKUST Computer Science - Final Year Project</p>
 		
 		 <ReactPlayer
          className='react-player fixed-bottom'
@@ -16,11 +16,11 @@ class Project extends Component {
             controls = {true}
       />
 	  <p>Password: 654321 (if need)</p>
-	  <p class ="p2"><br/> Final Year Project - Optimal path-finding Puzzle-solving game (Github):
+	  <p className ="p2"><br/> Final Year Project - Optimal path-finding Puzzle-solving game (Github):
 	  <a href = "https://github.com/nhto/final-year-projectt" target = "_blank" rel="noreferrer" >Link</a>
 	  </p>
 	  
-	  <p class ="p2"><br/> Other side project(Github):
+	  <p className ="p2"><br/> Other side project(Github):
 	  <a href = "https://github.com/nhto" target = "_blank" rel="noreferrer" >Link</a>
 	  </p>
 		
