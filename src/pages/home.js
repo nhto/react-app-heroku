@@ -29,7 +29,7 @@ class Home extends Component {
 	</p>
 	<p className="p1">
 	Personal hobbies: Football (2018-2021 HKUST CSE Football Team), Badminton, Hiking, Cycling, Photography<br/><br/>
-	Photography gallery:<br/><br/>
+	Photography gallery:<br/><br/></p>
 	<p><img src={Photo1} alt="" width="250px" height="260px"/>
 	<img src={Photo2} alt="" width="250px" height="260px"/>
 	<img src={Photo3} alt="" width="250px" height="260px"/>
@@ -38,7 +38,6 @@ class Home extends Component {
 	<img src={Photo6} alt="" width="250px" height="260px"/>
 	</p>
 	
-	</p>
 	</div>
 	
 	</div>
