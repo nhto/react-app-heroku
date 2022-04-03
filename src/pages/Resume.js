@@ -21,7 +21,7 @@ class Resume extends Component {
 		</div>
 		
 		<div className="item4"><h2 className="p2"> Experience </h2></div>
-		<div className="item5"><p  className="p1">
+		<div className="item5">
 		<b>Task Consultants Limited</b>
 		<br/>System Engineer
 		<br/><i><small>June 2021 - now</small></i>
@@ -44,7 +44,7 @@ class Resume extends Component {
 		
 		
 		
-		</p></div>
+		</div>
 		<div className="item6"><h2 className="p2"> Skills </h2></div>
 		<div className="item7"><p  className="p1">
 		<small><i>Programming languages: C++, C#, C, Java, Python, Ruby, Golang</i></small>
