@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
 	<BrowserRouter>
-	
+	<body>
 	<div  style={{
 		background: `url(${TopbarPhoto})`,
 		}}
@@ -32,7 +32,7 @@ class App extends Component {
 	<Route path="/project" component={Project} />
 	<Route path="/contact" component={Contact} />
 	</div>
-	
+	</body>
 	</BrowserRouter>
     );
   }
