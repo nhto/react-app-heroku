@@ -6,7 +6,7 @@ import ReactPlayer from "react-player"
 class Project extends Component {
   render() {
     return (
-      <div className="Project" className="backgroundimageProject" style={{ height:'100%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
+      <div className="backgroundimageProject" style={{ height:'100%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
         <h1 className ="p2"><u>Project </u></h1>
 		<p className="p1">HKUST Computer Science - Final Year Project</p>
 		
