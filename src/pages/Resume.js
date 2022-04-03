@@ -12,12 +12,11 @@ class Resume extends Component {
 		<div className="item2"><h2 className="p2"> Education </h2></div>
 		
 		<div className="item3">
-		<p  className="p1">
+		
 		<b>The Hong Kong Unversity of Science and Technology</b>
 		<br/>Beng in Computer Science
 		<br/><i><small>September 2018 - July 2021</small></i>
-		<br/><i><small>Second className Honors</small></i>
-		</p>
+		<br/><i><small>Second Class Honors</small></i>
 		</div>
 		
 		<div className="item4"><h2 className="p2"> Experience </h2></div>
@@ -25,26 +24,26 @@ class Resume extends Component {
 		<b>Task Consultants Limited</b>
 		<br/>System Engineer
 		<br/><i><small>June 2021 - now</small></i>
+		
 		<ul>
 		<li><i><small>Responsible for implementing multi-tier web application systems</small></i></li>
 		<br/><li><i><small>Monitoring the system development life-cycle including design, coding, testing, implementation and maintenance</small></i></li>
 		<br/><li><i><small>Work on bug fixing, maximize system performance and quality assurance</small></i></li>
 		</ul>
 		
-		
 		<br/>
 		<b>Environmental Protection Department, Internship</b>
 		<br/>Summer Intern
 		<br/><i><small>June 2020 – August 2020</small></i>
+		
 		<ul>
 		<li><i><small>Design and implement a new database in ArcGIS</small></i></li>
 		<br/><li><i><small>Data Analysis on pollution source in ArcGIS</small></i></li>
 		<br/><li><i><small>Identifying and cross-referencing the potential pollution sources in ArcGIS</small></i></li>
 		</ul>
-		
-		
-		
 		</div>
+		
+		
 		<div className="item6"><h2 className="p2"> Skills </h2></div>
 		<div className="item7"><p  className="p1">
 		<small><i>Programming languages: C++, C#, C, Java, Python, Ruby, Golang</i></small>
