@@ -12,12 +12,12 @@ class Resume extends Component {
 		<div className="item2"><h2 className="p2"> Education </h2></div>
 		
 		<div className="item3">
-		
+		<p  className="p1">
 		<b>The Hong Kong Unversity of Science and Technology</b>
 		<br/>Beng in Computer Science
 		<br/><i><small>September 2018 - July 2021</small></i>
 		<br/><i><small>Second Class Honors</small></i>
-		</div>
+		</p></div>
 		
 		<div className="item4"><h2 className="p2"> Experience </h2></div>
 		<div className="item5">
