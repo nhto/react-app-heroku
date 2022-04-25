@@ -4,7 +4,7 @@ import './css/Resume.css'
 class Resume extends Component {
   render() {
     return (
-      <div className="backgroundimageResume" style={{ height:'180%', position: 'absolute', left: '0px', width: '120%', overflow: 'hidden'}}>
+      <div className="backgroundimageResume" style={{ height:'230%', position: 'relative', left: '0px', width: '120%', overflow: 'hidden'}}>
         
 		<div className="grid-container2">
 		
@@ -29,6 +29,8 @@ class Resume extends Component {
 		<li><i><small>Responsible for implementing multi-tier web application systems</small></i></li>
 		<br/><li><i><small>Monitoring the system development life-cycle including design, coding, testing, implementation and maintenance</small></i></li>
 		<br/><li><i><small>Work on bug fixing, maximize system performance and quality assurance</small></i></li>
+		<br/><li className="list1"><i><small>Front-end: Javascript, JQuery, css, XML</small></i></li>
+		<br/><li className="list1"><i><small>Back-end: C++, MS SQL, DB2</small></i></li>
 		</ul>
 		
 		<br/>
@@ -47,9 +49,10 @@ class Resume extends Component {
 		<div className="item6"><h2 className="p2"> Skills </h2></div>
 		<div className="item7"><p  className="p1">
 		<small><i>Programming languages: C++, C#, C, Java, Python, Ruby, Golang</i></small>
-		<br/><small><i>Web development: HTML, CSS, PHP, JavaScript, React js, Express js  Asp .net</i></small>
-		<br/><small><i>Backend: MySQL, Oracle, DB2</i></small>
+		<br/><small><i>Web development: HTML, CSS, PHP, JavaScript, React.js, Express.js, Asp.net</i></small>
+		<br/><small><i>Backend: Microsoft SQL, Oracle, DB2</i></small>
 		<br/><small><i>Software: ArcGIS, Office 365, Unity, RStudio, Git & Github, Adobe Premiere Pro</i></small>
+		<br/><small><i>Mobile: Flutter</i></small>
 		</p></div>
 		
 		<div className="item9"><h2 className="p2"> Language </h2></div>
@@ -62,7 +65,120 @@ class Resume extends Component {
 		
 		</div>
 		
+		<div>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Programming language rating (Based on Javascript)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Programming language</td>
+					<td>Rating</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>Javascript</td>
+					<td>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star	checked"></span>
+					<span class="fa fa-star	checked"></span>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>C++</td>
+					<td>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star	checked"></span>
+					<span class="fa fa-star"></span>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>C#</td>
+					<td>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star	checked"></span>
+					<span class="fa fa-star"></span>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>Java</td>
+					<td>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star	checked"></span>
+					<span class="fa fa-star"></span>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>PHP</td>
+					<td>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>Python</td>
+					<td>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>Ruby</td>
+					<td>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					</td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td>Golang</td>
+					<td>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
 		<a href = "https://drive.google.com/file/d/1hkdFM3Y78DwMzLvgWlm4-sFwj4PSJW6L/view?usp=sharing" target = "_blank" rel="noreferrer" >Download Resume (PDF format)</a>
+		</div>
 
 
       </div>
