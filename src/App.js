@@ -10,7 +10,8 @@ import TopbarPhoto from './topbar_photo.jpg';
 
 
 class App extends Component {
-  render() {
+  document.title = "Hang's website";
+  render() {  
     return (
 	<BrowserRouter>
 	
