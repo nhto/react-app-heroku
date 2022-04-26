@@ -10,6 +10,13 @@ import './css/home.css'
 
 
 class Home extends Component {
+	componentDidMount() {    
+		document.title = 'Testing title';  
+	   }  
+	   
+	   componentDidUpdate() {    
+		document.title = 'Testing title';
+		}
   render() {
     return (
 	<div className="backgroundimageHome" style={{ height:'120%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>

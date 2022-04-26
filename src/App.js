@@ -10,14 +10,6 @@ import TopbarPhoto from './topbar_photo.jpg';
 
 
 class App extends Component {
-	   componentDidMount() {    
-		document.title = 'Testing title';  
-	   }  
-	   
-	   componentDidUpdate() {    
-		document.title = 'Testing title';
-		}
-		
 		render() {  
 			return (
 			<BrowserRouter>
