@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Component, useState, useEffect } from 'react';
+import React, { Component } from 'react';
 import {BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './pages/home';
 import Resume from './pages/Resume';
