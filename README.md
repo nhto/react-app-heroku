@@ -9,5 +9,5 @@ If you want to clone and run in local,
  5. input <b>npm start</b>
  6. visit http://localhost:3000/
 
-or you can just visit https://react-personal-website5.herokuapp.com/ to read my personal website
+or you can just visit https://62679a7e31c2b760e8f335c0--rococo-crostata-7ae28a.netlify.app/ 
 
