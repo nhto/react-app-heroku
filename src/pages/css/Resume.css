@@ -39,6 +39,25 @@
 	  font-family: courier;
 }
 
+.list1{
+	color: rgba(210, 80, 80, 0.9);
+}
+
 ul {
   text-align: left;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.checked {
+  color: orange;
 }
