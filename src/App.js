@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import {BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './pages/home';
 import Resume from './pages/Resume';
@@ -10,6 +10,9 @@ import TopbarPhoto from './topbar_photo.jpg';
 
 
 class App extends Component {
+	  useEffect(() => {       
+	  document.title = `testing project name`;  
+	  });
   render() {  
     return (
 	<BrowserRouter>
